@@ -1,0 +1,199 @@
+Ticker,Name,Sector
+AAPL,Apple Inc.,Technology
+MSFT,Microsoft Corporation,Technology
+GOOGL,Alphabet Inc.,Technology
+AMZN,Amazon.com Inc.,Technology
+META,Meta Platforms Inc.,Technology
+TSLA,Tesla Inc.,Technology
+NVDA,NVIDIA Corporation,Technology
+NFLX,Netflix Inc.,Technology
+ADBE,Adobe Inc.,Technology
+CRM,Salesforce Inc.,Technology
+ORCL,Oracle Corporation,Technology
+INTC,Intel Corporation,Technology
+AMD,Advanced Micro Devices Inc.,Technology
+QCOM,QUALCOMM Incorporated,Technology
+AVGO,Broadcom Inc.,Technology
+TXN,Texas Instruments Incorporated,Technology
+AMAT,Applied Materials Inc.,Technology
+LRCX,Lam Research Corporation,Technology
+KLAC,KLA Corporation,Technology
+MRVL,Marvell Technology Inc.,Technology
+JPM,JPMorgan Chase & Co.,Finance
+BAC,Bank of America Corporation,Finance
+WFC,Wells Fargo & Company,Finance
+C,Citigroup Inc.,Finance
+GS,The Goldman Sachs Group Inc.,Finance
+MS,Morgan Stanley,Finance
+BK,The Bank of New York Mellon Corporation,Finance
+USB,U.S. Bancorp,Finance
+PNC,The PNC Financial Services Group Inc.,Finance
+TFC,Truist Financial Corporation,Finance
+COF,Capital One Financial Corporation,Finance
+AXP,American Express Company,Finance
+V,Visa Inc.,Finance
+MA,Mastercard Incorporated,Finance
+PYPL,PayPal Holdings Inc.,Finance
+BRK-B,Berkshire Hathaway Inc.,Finance
+BLK,BlackRock Inc.,Finance
+SPGI,S&P Global Inc.,Finance
+ICE,Intercontinental Exchange Inc.,Finance
+CME,CME Group Inc.,Finance
+JNJ,Johnson & Johnson,Healthcare
+PFE,Pfizer Inc.,Healthcare
+UNH,UnitedHealth Group Incorporated,Healthcare
+ABT,Abbott Laboratories,Healthcare
+TMO,Thermo Fisher Scientific Inc.,Healthcare
+DHR,Danaher Corporation,Healthcare
+BMY,Bristol-Myers Squibb Company,Healthcare
+MRK,"Merck & Co., Inc.",Healthcare
+ABBV,AbbVie Inc.,Healthcare
+AMGN,Amgen Inc.,Healthcare
+GILD,Gilead Sciences Inc.,Healthcare
+BIIB,Biogen Inc.,Healthcare
+REGN,Regeneron Pharmaceuticals Inc.,Healthcare
+VRTX,Vertex Pharmaceuticals Incorporated,Healthcare
+ILMN,Illumina Inc.,Healthcare
+ISRG,Intuitive Surgical Inc.,Healthcare
+SYK,Stryker Corporation,Healthcare
+BSX,Boston Scientific Corporation,Healthcare
+MDT,Medtronic plc,Healthcare
+EW,Edwards Lifesciences Corporation,Healthcare
+HD,The Home Depot Inc.,Consumer Discretionary
+MCD,McDonalds Corperation,Consumer Discretionary
+NKE,NIKE Inc.,Consumer Discretionary
+SBUX,Starbucks Corporation,Consumer Discretionary
+TJX,The TJX Companies Inc.,Consumer Discretionary
+LOW,Lowes Companies Inc.,Consumer Discretionary
+BKNG,Booking Holdings Inc.,Consumer Discretionary
+ABNB,Airbnb Inc.,Consumer Discretionary
+DIS,The Walt Disney Company,Consumer Discretionary
+CMCSA,Comcast Corporation,Consumer Discretionary
+VZ,Verizon Communications Inc.,Consumer Discretionary
+T,AT&T Inc.,Consumer Discretionary
+CHTR,Charter Communications Inc.,Consumer Discretionary
+TMUS,T-Mobile US Inc.,Consumer Discretionary
+ROKU,Roku Inc.,Consumer Discretionary
+SPOT,Spotify Technology S.A.,Consumer Discretionary
+UBER,Uber Technologies Inc.,Consumer Discretionary
+PG,The Procter & Gamble Company,Consumer Staples
+KO,The Coca-Cola Company,Consumer Staples
+PEP,PepsiCo Inc.,Consumer Staples
+WMT,Walmart Inc.,Consumer Staples
+COST,Costco Wholesale Corporation,Consumer Staples
+CL,Colgate-Palmolive Company,Consumer Staples
+KMB,Kimberly-Clark Corporation,Consumer Staples
+GIS,General Mills Inc.,Consumer Staples
+K,Kellanova,Consumer Staples
+CPB,Campbell Soup Company,Consumer Staples
+TSN,Tyson Foods Inc.,Consumer Staples
+HRL,Hormel Foods Corporation,Consumer Staples
+SJM,The J. M. Smucker Company,Consumer Staples
+CAG,Conagra Brands Inc.,Consumer Staples
+MKC,McCormick & Company Incorporated,Consumer Staples
+CLX,The Clorox Company,Consumer Staples
+CHD,Church & Dwight Co. Inc.,Consumer Staples
+EL,The Estée Lauder Companies Inc.,Consumer Staples
+ULTA,Ulta Beauty Inc.,Consumer Staples
+TGT,Target Corporation,Consumer Staples
+BA,The Boeing Company,Industrials
+CAT,Caterpillar Inc.,Industrials
+DE,Deere & Company,Industrials
+GE,General Electric Company,Industrials
+HON,Honeywell International Inc.,Industrials
+UPS,United Parcel Service Inc.,Industrials
+FDX,FedEx Corporation,Industrials
+LMT,Lockheed Martin Corporation,Industrials
+RTX,RTX Corporation,Industrials
+NOC,Northrop Grumman Corporation,Industrials
+MMM,3M Company,Industrials
+EMR,Emerson Electric Co.,Industrials
+ETN,Eaton Corporation plc,Industrials
+ITW,Illinois Tool Works Inc.,Industrials
+PH,Parker-Hannifin Corporation,Industrials
+CMI,Cummins Inc.,Industrials
+ROK,Rockwell Automation Inc.,Industrials
+DOV,Dover Corporation,Industrials
+FTV,Fortive Corporation,Industrials
+XYL,Xylem Inc.,Industrials
+XOM,Exxon Mobil Corporation,Energy/Utilities
+CVX,Chevron Corporation,Energy/Utilities
+COP,ConocoPhillips,Energy/Utilities
+EOG,EOG Resources Inc.,Energy/Utilities
+PXD*,Unknown,Energy/Utilities
+VLO,Valero Energy Corporation,Energy/Utilities
+MPC,Marathon Petroleum Corporation,Energy/Utilities
+PSX,Phillips 66,Energy/Utilities
+KMI,Kinder Morgan Inc.,Energy/Utilities
+OKE,ONEOK Inc.,Energy/Utilities
+NEE,NextEra Energy Inc.,Energy/Utilities
+DUK,Duke Energy Corporation,Energy/Utilities
+SO,The Southern Company,Energy/Utilities
+AEP,American Electric Power Company Inc.,Energy/Utilities
+EXC,Exelon Corporation,Energy/Utilities
+XEL,Xcel Energy Inc.,Energy/Utilities
+PEG,Public Service Enterprise Group Incorporated,Energy/Utilities
+ED,Consolidated Edison Inc.,Energy/Utilities
+AWK,American Water Works Company Inc.,Energy/Utilities
+ATO,Atmos Energy Corporation,Energy/Utilities
+LIN,Linde plc,Materials
+APD,Air Products and Chemicals Inc.,Materials
+ECL,Ecolab Inc.,Materials
+SHW,The Sherwin-Williams Company,Materials
+FCX,Freeport-McMoRan Inc.,Materials
+NEM,Newmont Corporation,Materials
+FMC,FMC Corporation,Materials
+LYB,LyondellBasell Industries N.V.,Materials
+DD,DuPont de Nemours Inc.,Materials
+DOW,Dow Inc.,Materials
+PPG,PPG Industries Inc.,Materials
+NUE,Nucor Corporation,Materials
+STLD,Steel Dynamics Inc.,Materials
+MLM,Martin Marietta Materials Inc.,Materials
+VMC,Vulcan Materials Company,Materials
+PKG,Packaging Corporation of America,Materials
+IP,International Paper Company,Materials
+WRK,WestRock Company,Materials
+SON,Sonoco Products Company,Materials
+AVY,Avery Dennison Corporation,Materials
+AMT,American Tower Corporation,Real Estate
+PLD,Prologis Inc.,Real Estate
+CCI,Crown Castle Inc.,Real Estate
+EQIX,Equinix Inc.,Real Estate
+SPG,Simon Property Group Inc.,Real Estate
+O,Realty Income Corporation,Real Estate
+WELL,Welltower Inc.,Real Estate
+AVB,AvalonBay Communities Inc.,Real Estate
+EQR,Equity Residential,Real Estate
+DLR,Digital Realty Trust Inc.,Real Estate
+BXP,Boston Properties Inc.,Real Estate
+VTR,Ventas Inc.,Real Estate
+ARE,Alexandria Real Estate Equities Inc.,Real Estate
+MAA,Mid-America Apartment Communities Inc.,Real Estate
+UDR,UDR Inc.,Real Estate
+CPT,Camden Property Trust,Real Estate
+KIM,Kimco Realty Corporation,Real Estate
+REG,Regency Centers Corporation,Real Estate
+FRT,Federal Realty Investment Trust,Real Estate
+BRX,Brixmor Property Group Inc.,Real Estate
+TWTR,Unknown,Communication Services
+SNAP,Snap Inc.,Communication Services
+PINS,Pinterest Inc.,Communication Services
+MTCH,Match Group Inc.,Communication Services
+IAC,IAC Inc.,Communication Services
+FOXA,Fox Corporation,Communication Services
+PARA,Paramount Global,Communication Services
+WBD,Warner Bros. Discovery Inc.,Communication Services
+LUMN,Lumen Technologies Inc.,Communication Services
+SIRI,Sirius XM Holdings Inc.,Communication Services
+DISH*,DISH Network Corporation,Communication Services
+SHOP,Shopify Inc.,Emerging
+ZM,Zoom Video Communications Inc.,Emerging
+DOCU,DocuSign Inc.,Emerging
+OKTA,Okta Inc.,Emerging
+SNOW,Snowflake Inc.,Emerging
+PLTR,Palantir Technologies Inc.,Emerging
+RBLX,Roblox Corporation,Emerging
+HOOD,Robinhood Markets Inc.,Emerging
+COIN,Coinbase Global Inc.,Emerging
+RIVN,Rivian Automotive Inc.,Emerging
