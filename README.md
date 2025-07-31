@@ -1,6 +1,6 @@
 # Model-Aware and Data-Driven Inference
 
-Contributors: Alexander DeLise, Kyle Loh, Krish Patel, Meredith Teague
+Contributors: [Alexander DeLise](https://www.linkedin.com/in/alexanderdelise/), [Kyle Loh](https://www.linkedin.com/in/kyle-loh-a2a3272a9/), [Krish Patel](https://www.linkedin.com/in/krish-patel-1a8804224/), [Meredith Teague](https://www.linkedin.com/in/meredithcteague/)
 
 Advisors: Andrea Arnold, Matthias Chung
 
