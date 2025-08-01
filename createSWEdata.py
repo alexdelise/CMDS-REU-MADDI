@@ -502,7 +502,7 @@ for ic_name in ic_list:
         "2 Gaussian Bumps": [np.zeros((N_x, N_y)), np.zeros((N_x, N_y)), np.exp(-((X - np.random.uniform(-L_x / 3, L_x / 3)) ** 2 / (2 * (0.07e6) ** 2)
         + (Y - np.random.uniform(-L_y / 4, L_y / 4)) ** 2 / (2 * (0.05e6) ** 2)) ) + 0.5 * np.exp(-((X - np.random.uniform(-L_x / 5, L_x / 5)) ** 2 / (2 * (0.03e6) ** 2)
         + (Y - np.random.uniform(-L_y / 6, L_y / 6)) ** 2 / (2 * (0.04e6) ** 2)) )] , 
-        "Sinusoidal Wave Pattern": [np.zeros((N_x, N_y)), np.zeros((N_x, N_y)), A * np.sin(2 * np.pi * X / L_x)] , 
+        "Sinusoidal Wave Pattern": [np.zeros((N_x, N_y)), np.zeros((N_x, N_y)), (A*np.random.uniform(0.8,1.2)) * np.sin((2*np.pi*X)/(L_x * np.random.uniform(0.9, 1.1)) + np.random.uniform(0, 2 * np.pi)) ] , 
         "Flat Conditions": [ 1e-3*(np.random.rand(N_x, N_y) - 0.5), 1e-3*(np.random.rand(N_x, N_y) - 0.5), 1e-3*(np.random.rand(N_x, N_y) - 0.5)],
             }
         ic = ic_set[ic_name]
