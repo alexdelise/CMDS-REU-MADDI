@@ -18,8 +18,6 @@ For full functionality, the following should be installed:
 
 
 # Relevant Links
-- Our poster blitz video can be found [here](https://youtu.be/sEYCTWnZ3pM?si=L2fmIEY2AUwPl54Z).
-
 - Our poster can be found [here](https://drive.google.com/file/d/1NksMj0q8Z5X7d6GNnvmgxZy9OddyvYYf/view?usp=sharing).
 
 - Our ArXiV manuscript can be found here
