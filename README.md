@@ -8,10 +8,6 @@ This repository was made for the "Model-Aware and Data-Driven Inference" project
 
 This project is partially supported by NSF DMS-2349534. 
 
-For full functionality, the following should be installed:
-1. A dataset containing 6370 CT images: https://paperswithcode.com/dataset/2detect
-2. MEDMNIST, which is a repository containing preprocessed medical image data: https://medmnist.com/
-
 
 # Instructions
 
