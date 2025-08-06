@@ -14,7 +14,7 @@ reg = 1e-3
 
 # sample implementation for forward affine case
 i = 0
-affine = True
+affine = False
 reg = 1e-3
 r = 20
 
