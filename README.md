@@ -9,10 +9,6 @@ This repository was made for the "Model-Aware and Data-Driven Inference" project
 This project is partially supported by NSF DMS-2349534. 
 
 
-# Instructions
-
-
-
 # Relevant Links
 - Our poster can be found [here](https://drive.google.com/file/d/1kZ1RPy-E8zGCxs_8ntEbNDc42YKNFbQ0/view?usp=drive_link).
 
