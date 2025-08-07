@@ -99,6 +99,9 @@ pip install yfinance
 
 ## Shallow Water Equations
 
+* The createSWE.py file is used to generate the different training and testing datasets we use in our experiments. It can be run standalone, requires torch and numpy to be installed, and saves the data and initial conditions into 2 seperate .pt files for each type of inital condition. Parameters for the data generation can be varied.
+* The finalSW.ipynb file is used mainly for the nonlinear learned approach. It includes the model architecture, as well as training loop code and computing errors and plotting results.
+* The linear.ipynb file is used for the optimal linear appoach. It includes computation of the optimal linear model, computing errors, and plotting results.
 
 # Relevant Links
 - Our poster can be found [here](https://drive.google.com/file/d/1kZ1RPy-E8zGCxs_8ntEbNDc42YKNFbQ0/view?usp=drive_link).
