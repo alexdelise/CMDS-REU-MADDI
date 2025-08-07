@@ -80,7 +80,7 @@ This case study uses generated data from a GARCH model to test the full autoenco
 
 ### Market
 
-This case study uses real market data. To get started, install the `yfinance` pakcage via the command 
+This case study uses real market data. To get started, install the `yfinance` package via the command 
 ```python
 pip install yfinance
 ```
