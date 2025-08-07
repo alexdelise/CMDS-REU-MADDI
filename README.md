@@ -73,7 +73,7 @@ This case study uses generated data from a GARCH model to test the full autoenco
 - `syntheticAEScript.ipynb`  
   Full synthetic pipeline. After generating the CSVs above, this notebook runs end-to-end:
   - Builds and trains the model
-  - Computes the optimal projection analysis (OPA)
+  - Computes the Orthogonal Procrustes Alignment (OPA)
   - Performs post-training analysis
 
 
