@@ -10,27 +10,37 @@ This project is partially supported by NSF DMS-2349534.
 
 # Instructions
 ## Basic Demo
-We provide code that computes the theoretically optimal mappings for the forward and inverse end-to-end problems, as well as for autoencoding and denoising in `demo.py`. This code generates a random input data matrix $\mathbf{X}$ and generates an observation matrix $\mathbf{Y}$ via a rank-deficient forward operator. For generating affine linear mappings, make `affine = True`.
+The `demo.py` script provides code to compute the theoretically optimal mappings for the forward and inverse end-to-end problems, as well as for autoencoding and denoising. It generates a random input data matrix $\mathbf{X}$ and constructs the corresponding observation matrix $\mathbf{Y}$ using a rank-deficient forward operator. 
+
+To generate affine linear mappings instead, set `affine = True`.
+
 
 ## Biomedical Imaging with $\texttt{MedMNIST}$
-Begin by installing the $\texttt{MedMNIST}$ datasets via the command 
+To get started, install the $\texttt{MedMNIST}$ dataset package by running:
 ```python
 pip install medmnist
 ```
-For more information on the $\texttt{MedMNIST}$ dataset, click [here](https://medmnist.com/). 
+More details about the $\texttt{MedMNIST}$ dataset can be found on the [official website](https://medmnist.com/). 
 
-We provide a `python` notebook for each of general forward and inverse end-to-end problems, autoencoding, and data denoising, as well as their affine linear counterparts. Running each `python` notebook will produce the representative error sample
+We provide separate `Python` notebooks for the following problem formulations:
+- General forward and inverse end-to-end mappings
+- Autoencoding
+- Data denoising
+- Each of the above, along with their affine linear counterparts
 
-![errorSample](README-Pics/classic_chestmnist_mapping7181_errorcomparison.png)
+Each notebook will generate:
+- A representative error comparison sample
+- A rank sweep plot
 
-as well as the rank sweep plot
+For example:
 
-![rankSweep](README-Pics/classic_ranksweep_200ep.png)
+<div align="center"> <img src="README-Pics/classic_chestmnist_mapping7181_errorcomparison.png" alt="errorSample" width="450"/> </div> <div align="center"> <img src="README-Pics/classic_ranksweep_200ep.png" alt="rankSweep" width="450"/> </div>
 
-We use `PyTorch` to run our experiments, thus if you have an NVIDIA GPU, experiments will be run on there. Results are stored in corresponding subfolders, including `pickle` files that contain optimal and learned mappings for each tested rank.
+We use `PyTorch` to run all experiments. If you have an NVIDIA GPU, computations will automatically utilize it for acceleration. The results, including pickle files of learned and optimal mappings at various ranks, are stored in organized subdirectories.
 
+In the `SpecialErrorComparisonPlot` folder, we include scripts to generate side-by-side comparison plots for each problem type, with their affine linear variants. For example:
 
-Within the `SpecialErrorComparisonPlot` folder, you can find code that produces representative error sample figures for each problem formualtion and their affine linear counterpart, such as in the picture below. 
+<div align="center"> <img src="README-Pics/aeFullComparison.png" alt="errorSampleLinAffLin" width="600"/> </div>
 
 
 ## Financial
