@@ -6,7 +6,15 @@ Advisors: Andrea Arnold, Matthias Chung
 
 This repository was made for the "Model-Aware and Data-Driven Inference" project from the Summer 2025 "Model Meets Data REU" in Emory University's Math Department. More information can be found on the [REU website](https://www.math.emory.edu/site/cmds-reuret/summer2025/).
 
-This project is partially supported by NSF DMS-2349534. 
+- Our ArXiV manuscript "Optimal Linear Baseline Models for Scientific Machine Learning" can be found [here](https://example.com).
+
+- Our poster can be found [here](https://drive.google.com/file/d/1kZ1RPy-E8zGCxs_8ntEbNDc42YKNFbQ0/view?usp=drive_link).
+
+
+
+
+
+This project is supported by NSF DMS-2349534. 
 
 # Instructions
 ## Basic Demo
@@ -34,7 +42,12 @@ Each notebook will generate:
 
 For example:
 
-<div align="center"> <img src="README-Pics/classic_chestmnist_mapping7181_errorcomparison.png" alt="errorSample" width="450"/> </div> <div align="center"> <img src="README-Pics/classic_ranksweep_200ep.png" alt="rankSweep" width="450"/> </div>
+<div align="center"> 
+    <img src="README-Pics/classic_chestmnist_mapping7181_errorcomparison.png" alt="errorSample" width="450"/> 
+</div> 
+<div align="center"> 
+    <img src="README-Pics/classic_ranksweep_200ep.png" alt="rankSweep" width="450"/> 
+</div>
 
 We use `PyTorch` to run all experiments. If you have an NVIDIA GPU, computations will automatically utilize it for acceleration. The results, including pickle files of learned and optimal mappings at various ranks, are stored in organized subdirectories.
 
@@ -94,16 +107,45 @@ pip install yfinance
   1. Compare 4 synthetic vs 4 real asset returns over 100 days  
   2. Plot latent factor values over 100 days  
   3. (**Requires prior construction of stock framework**) Visualize GICS sector breakdown of selected stocks
+  4. Example figures include:
+<div align="center">
+  <img src="README-Pics/synthVSMarket.png" alt="Synthetic vs Market Comparison" width="450"/>
+</div>
+
+<div align="center">
+    <img src="README-Pics/latent.png" alt="Latent Factors" width="450"/>
+</div>
+
  
 
 
-## Shallow Water Equations
+## Shallow Water Equations Experiment
 
-* The createSWE.py file is used to generate the different training and testing datasets we use in our experiments. It can be run standalone, requires torch and numpy to be installed, and saves the data and initial conditions into 2 seperate .pt files for each type of inital condition. Parameters for the data generation can be varied.
-* The finalSW.ipynb file is used mainly for the nonlinear learned approach. It includes the model architecture, as well as training loop code and computing errors and plotting results.
-* The linear.ipynb file is used for the optimal linear appoach. It includes computation of the optimal linear model, computing errors, and plotting results.
+All code for the shallow water experiments is contained in the `SWE` folder. It includes tools for generating datasets, computing optimal linear models, and training and evaluating nonlinear models using `PyTorch`. All computations will run on GPU if available.
 
-# Relevant Links
-- Our poster can be found [here](https://drive.google.com/file/d/1kZ1RPy-E8zGCxs_8ntEbNDc42YKNFbQ0/view?usp=drive_link).
+* `createSWE.py`  
+  Used to generate the different training and testing datasets for our shallow water experiments.  
+  - Can be run as a standalone script  
+  - Requires `torch` and `numpy`  
+  - Saves the data and initial conditions into two separate `.pt` files for each type of initial condition  
+  - Parameters for data generation (e.g., noise level, resolution, condition type) can be varied
+  - Detailed descriptions of all functions are provided in-file
 
-- Our ArXiV manuscript can be found [here](https://example.com)
+* `finalSW.ipynb`  
+  Main notebook for the **nonlinear learned approach**.  
+  - Defines the model architecture  
+  - Includes the training loop, error computation, and result plotting
+
+* `linear.ipynb`  
+  Notebook for the **optimal linear approach**.  
+  - Computes the theoretically optimal linear model  
+  - Evaluates error and plots results
+
+* Notebooks create plots of the initial conditions and predicted results. For example:
+<div align="center">
+  <img src="README-Pics/ic.png" alt="Initial Condition" width="450"/>
+</div>
+
+<div align="center">
+  <img src="README-Pics/linPred.png" alt="Linear Prediction" width="450"/>
+</div>
