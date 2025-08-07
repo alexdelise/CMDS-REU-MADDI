@@ -15,7 +15,7 @@ The `demo.py` script provides code to compute the theoretically optimal mappings
 To generate affine linear mappings instead, set `affine = True`.
 
 
-## Biomedical Imaging with $\texttt{MedMNIST}$
+## Biomedical Imaging with $\texttt{MedMNIST}$ Experiment
 To get started, install the $\texttt{MedMNIST}$ dataset package by running:
 ```python
 pip install medmnist
@@ -43,25 +43,58 @@ In the `SpecialErrorComparisonPlot` folder, we include scripts to generate side-
 <div align="center"> <img src="README-Pics/aeFullComparison.png" alt="errorSampleLinAffLin" width="600"/> </div>
 
 
-## Financial
+## Financial Experiment
 
-The Financial folder contains code that pertains to two case studies: Synthetic and Market. 
-SYNTHETIC 
-toyDataGARCH.ipynb -> ** synthetic only ** you have to run this before you can run the AE script bc this generates the csvs that you need listed below: (self explanatory?)
-latentFactors_garch.csv -> generated latent factor matrix. 
-assetReturns_garch.csv -> generated asset returns. 
-factorLoadings_garch.csv -> generated factor loading matrix
+The `Financial` folder contains code for two case studies: `Synthetic` and `Market`. Each study includes a full pipeline for data generation, model training, and analysis.
 
-syntheticAEScript.ipynb -> the whole pipeline for synthetic. once you have the csvs from above, you should just be able to run this no problem. includes model building/training/testing, OPA and analysis. 
+### Synthetic
 
-MARKET
-** you have to install yfinance and other things before you can run these ** 
-stockUniverseNames.ipynb -> code for generating stockUniverseNames.csv which provides a list of all of the stocks in the market stock universe, along with their GICS sector and full name. ** not necessary for running pipeline ** 
-marketAEScript.ipynb -> full market data pipeline. Includes building stock universe, downloading fama french factors, model building/training/testing, varimax rotation and analysis. Note: the link/file type/headers of Kenneth French Data can change frequently, manual updates to code may be necessary.
+This case study uses generated data from a GARCH model to test the full autoencoder pipeline.
 
-VISUALIZATIONS
-** this also requires yfinance among other things ** 
-plotter.ipynb -> contains visualizations for both synthetic and market examples. plot 1) 4 synthetic asset returns over 100 days vs 4 real asset returns over 100 days. plot 2) latent factor values over 100 days. plot 3) ** requires building stock framework before visualization ** GICS sector breakdown of stock framework. 
+- `toyDataGARCH.ipynb`  
+  **Must be run first** – generates the CSV files required by the rest of the synthetic pipeline:
+  - `latentFactors_garch.csv`: latent factor matrix
+  - `assetReturns_garch.csv`: asset returns
+  - `factorLoadings_garch.csv`: factor loading matrix
+
+- `syntheticAEScript.ipynb`  
+  Full synthetic pipeline. After generating the CSVs above, this notebook runs end-to-end:
+  - Builds and trains the model
+  - Computes the optimal projection analysis (OPA)
+  - Performs post-training analysis
+
+
+
+### Market
+
+This case study uses real market data. To get started, install the `yfinance` pakcage via the command 
+```python
+pip install yfinance
+```
+
+- `stockUniverseNames.ipynb`  
+  Generates `stockUniverseNames.csv`, listing all stocks in the universe with GICS sector and full name.  
+  _Note: Not required to run the main pipeline._
+
+- `marketAEScript.ipynb`  
+  Complete pipeline for real stock data:
+  - Builds the stock universe
+  - Downloads Fama-French factors
+  - Builds, trains, and tests the model
+  - Applies varimax rotation and performs analysis  
+  _Note: The Kenneth French dataset source may change format or links over time. Manual updates to the code may be needed._
+
+
+### Visualizations
+
+**Also requires `yfinance` and other dependencies.**
+
+- `plotter.ipynb`  
+  Generates visualizations for both `Synthetic` and `Market` case studies:
+  1. Compare 4 synthetic vs 4 real asset returns over 100 days  
+  2. Plot latent factor values over 100 days  
+  3. (**Requires prior construction of stock framework**) Visualize GICS sector breakdown of selected stocks
+ 
 
 
 ## Shallow Water Equations
@@ -70,4 +103,4 @@ plotter.ipynb -> contains visualizations for both synthetic and market examples.
 # Relevant Links
 - Our poster can be found [here](https://drive.google.com/file/d/1kZ1RPy-E8zGCxs_8ntEbNDc42YKNFbQ0/view?usp=drive_link).
 
-- Our ArXiV manuscript can be found here
+- Our ArXiV manuscript can be found [here](https://example.com)
