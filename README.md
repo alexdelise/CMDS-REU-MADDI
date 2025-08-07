@@ -45,6 +45,25 @@ In the `SpecialErrorComparisonPlot` folder, we include scripts to generate side-
 
 ## Financial
 
+The Financial folder contains code that pertains to two case studies: Synthetic and Market. 
+SYNTHETIC 
+toyDataGARCH.ipynb -> ** synthetic only ** you have to run this before you can run the AE script bc this generates the csvs that you need listed below: (self explanatory?)
+latentFactors_garch.csv -> generated latent factor matrix. 
+assetReturns_garch.csv -> generated asset returns. 
+factorLoadings_garch.csv -> generated factor loading matrix
+
+syntheticAEScript.ipynb -> the whole pipeline for synthetic. once you have the csvs from above, you should just be able to run this no problem. includes model building/training/testing, OPA and analysis. 
+
+MARKET
+** you have to install yfinance and other things before you can run these ** 
+stockUniverseNames.ipynb -> code for generating stockUniverseNames.csv which provides a list of all of the stocks in the market stock universe, along with their GICS sector and full name. ** not necessary for running pipeline ** 
+marketAEScript.ipynb -> full market data pipeline. Includes building stock universe, downloading fama french factors, model building/training/testing, varimax rotation and analysis. Note: the link/file type/headers of Kenneth French Data can change frequently, manual updates to code may be necessary.
+
+VISUALIZATIONS
+** this also requires yfinance among other things ** 
+plotter.ipynb -> contains visualizations for both synthetic and market examples. plot 1) 4 synthetic asset returns over 100 days vs 4 real asset returns over 100 days. plot 2) latent factor values over 100 days. plot 3) ** requires building stock framework before visualization ** GICS sector breakdown of stock framework. 
+
+
 ## Shallow Water Equations
 
 
