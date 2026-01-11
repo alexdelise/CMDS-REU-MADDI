@@ -8,7 +8,7 @@ This repository was made for the "Model-Aware and Data-Driven Inference" project
 
 - Our ArXiV manuscript "Optimal Linear Baseline Models for Scientific Machine Learning" can be found [here](https://example.com).
 
-- Our poster can be found [here]([https://drive.google.com/file/d/17J9OuRvrml7EGSp-HRn8MIwqGx3h9dij/view?usp=sharing]).
+- Our poster can be found [here](https://drive.google.com/file/d/17J9OuRvrml7EGSp-HRn8MIwqGx3h9dij/view?usp=sharing).
 
 
 
